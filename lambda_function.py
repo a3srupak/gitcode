@@ -26,7 +26,7 @@ def random_date(start, end):
 # Start & End Date
 d1 = datetime.strptime("01/01/2000 00:00:00", "%d/%m/%Y %H:%M:%S")
 d2 = datetime.strptime("31/12/2030 23:59:59", "%d/%m/%Y %H:%M:%S")
-print(d2)
+print(d2,d1)
 
 # Dynamodb data function
 def insert_bulkdata(table_data):
